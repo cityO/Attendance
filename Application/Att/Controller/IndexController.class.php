@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: wangsfox * Date: 2017/10/10 * Time: 18:39 */namespace Att\Controller;use Think\Controller;class IndexController extends Controller{    public function index(){        echo '1111';    }}
