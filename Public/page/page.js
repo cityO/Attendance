@@ -1,0 +1,1 @@
+$('#submit').click(function () {    $.toast('请填写正确的手机号');});
