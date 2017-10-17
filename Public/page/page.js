@@ -1,1 +1,1 @@
-$('#submit').click(function () {    $.toast('请填写正确的手机号');});
+$('#submit').click(function () {     if (!$("input[name='name']").val()){         $.toast('请输入姓名');         return false;     }     if (!$("input[name='phone']").val()){         $.toast('请输入手机号');         return false;     }     if (!$("input[name='company']").val()) {         $.toast('请输入所在公司');         return false;     }     if (!$("input[name='dept']").val()) {         $.toast('请输入您的职位');         return false;     }    $("input[name='submit']").click();});
